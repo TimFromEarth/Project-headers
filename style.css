@@ -1,0 +1,172 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  background-color: #eef0f3;
+}
+
+header {
+  background-color: #fff;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #eef0f3;
+}
+
+.header1 {
+  padding: 12px 40px;
+}
+
+.search-block {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  flex: 0 0 352px;
+  border: 1px solid #dfdfdf;
+  padding: 12px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #707070;
+  background-color: transparent;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #000000;
+}
+
+.header1 .nav a:hover {
+  color: #5c53e9;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.btn-register {
+  background-color: #000000;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.header2 {
+  padding: 20px 48px;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav2 a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #242424;
+}
+
+.nav2 a:hover {
+  color: #5856d6;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  padding: 10px;
+  height: 40px;
+}
+
+.btn-primary {
+  background-color: #5c53e9;
+  padding: 10px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.header3 {
+  padding: 25px 36px;
+  border-radius: 10px;
+}
+
+.nav3 a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #000000;
+}
+
+.btn-search {
+  background-color: transparent;
+  padding: 10px;
+  height: 40px;
+}
+
+.header4 {
+  padding: 25px 36px;
+  background-color: #111928;
+  border-radius: 10px;
+}
+
+.header4 nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #fff;
+}
+
+.header4 .search-block {
+    gap: 50px;
+}
+
+.header4 .search-block .search-box {
+    flex: 0 0 500px;
+}
